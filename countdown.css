@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: aqua;
+    font-size: 2em;
+}
+
+#clock{
+    margin-top: 250px;
+    background-color: paleturquoise;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#clock > div {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#clock div > span {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    display: inline-block;
+}
+
+small {
+    font-size: 0.9em;
+    padding-top: 5px;
+
+}
+
+input {
+    font-size: 1.5em;
+    margin: 25px;
+    padding: 10px;
+
+}
